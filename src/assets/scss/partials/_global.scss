@@ -1,0 +1,137 @@
+$cursive: 'Galada', cursive;
+$roboto: 'Roboto', sans-serif;
+$red:#AF0000;
+$yellow:#EAB662;
+$black:#000000;
+$grey:#444;
+$white:#ffffff;
+
+
+body {
+	background:$white;
+	background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/white_tiles.png");
+	.subheader{
+		font-family:$cursive;
+		color:$red;
+	}
+
+	.headerproduct{
+		font-family:$cursive;
+		color:$yellow;
+	}
+
+	p{font-family:$roboto;}
+	
+	header{
+		font-family: $cursive;
+		color: $white;
+		background: $red;
+		padding:2%;
+			h1{
+				text-align:center;
+				font-size: 2rem;
+				margin:0;
+					.logo{
+					vertical-align: middle;
+					max-width: 100%;
+					height:auto;
+					width: 15%;
+					}
+				}
+			}
+	nav ul{
+		font-weight: bold;
+		font-family: $roboto;
+		list-style-type: none;
+		margin: 0;
+		padding: 2%;
+			li{
+				text-align:center;
+				a{
+					text-decoration: none;
+					color:$grey;
+					&:hover{
+						text-decoration: underline ;
+						color: $yellow;
+						}
+					}
+				}
+			}
+
+	section{
+		border-top: 0.5px solid $red;
+  }
+		
+	
+
+	ul{
+		padding: 0;
+		li{
+			list-style: none;
+		.product{
+			border: 2px outset #dad1d161;
+			margin: 5px;
+		}
+		img{
+			max-width:100%;
+			height:auto; 
+			&:hover{
+				opacity:.8%;
+			}
+
+				}
+			}
+		
+		}
+	}
+
+	.wrapper{
+		margin: 0 auto;
+		width:100%;
+		padding:30px 10px;
+		background-color: $yellow;
+		text-align: center;
+		li{
+			display:inline-block;
+		}
+		img{
+			height:50px;
+			width:50px;
+		}
+	}
+	
+
+
+	
+	
+@media (min-width: 580px){
+	#nav ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		}
+
+	.pictures{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		li{
+			width:50%;
+			img{
+			width: 100%;
+			height: auto;
+			}
+		}
+	}
+}
+
+@media (min-width: 960px){
+
+	 .products ul li{
+		width:33%;
+		img{
+			width: 100%;
+			height: auto;
+			}
+	}
+}
