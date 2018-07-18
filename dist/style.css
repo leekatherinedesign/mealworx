@@ -1,0 +1,88 @@
+body {
+  background: #ffffff;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/white_tiles.png"); }
+  body .subheader {
+    font-family: "Galada", cursive;
+    color: #AF0000; }
+  body .headerproduct {
+    font-family: "Galada", cursive;
+    color: #EAB662; }
+  body p {
+    font-family: "Roboto", sans-serif; }
+  body header {
+    font-family: "Galada", cursive;
+    color: #ffffff;
+    background: #AF0000;
+    padding: 2%; }
+    body header h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 0; }
+      body header h1 .logo {
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+        width: 15%; }
+  body nav ul {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 2%; }
+    body nav ul li {
+      text-align: center; }
+      body nav ul li a {
+        text-decoration: none;
+        color: #444; }
+        body nav ul li a:hover {
+          text-decoration: underline;
+          color: #EAB662; }
+  body section {
+    border-top: 0.5px solid #AF0000; }
+  body ul {
+    padding: 0; }
+    body ul li {
+      list-style: none; }
+      body ul li .product {
+        border: 2px outset #dad1d161;
+        margin: 5px; }
+      body ul li img {
+        max-width: 100%;
+        height: auto; }
+        body ul li img:hover {
+          opacity: .8%; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px 10px;
+  background-color: #EAB662;
+  text-align: center; }
+  .wrapper li {
+    display: inline-block; }
+  .wrapper img {
+    height: 50px;
+    width: 50px; }
+
+@media (min-width: 580px) {
+  #nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .pictures li {
+      width: 50%; }
+      .pictures li img {
+        width: 100%;
+        height: auto; } }
+
+@media (min-width: 960px) {
+  .products ul li {
+    width: 33%; }
+    .products ul li img {
+      width: 100%;
+      height: auto; } }
+
